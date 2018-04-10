@@ -1,0 +1,52 @@
+.whole {
+	font-size: 30;
+	line-height: 1;
+	max-width: 60em;
+  	padding: 1em;
+  	margin: 0 auto;
+	}
+  
+.col1 {
+	max-width: 75%;
+	display: inline;
+	}
+	
+.col2 {
+	display: inline;
+	float: right;
+	max-width: 25%;
+	}
+	
+.contents {
+	padding-top: .2em;
+	font-family: 'Lora', serif;
+	font-size: 10em;
+	letter-spacing: 2px; 
+	font-weight: bold;
+	}
+
+.volume {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 3em;
+	text-align: right;
+	padding-top: 1em;
+	color: grey;
+	}
+
+.underline {
+	font-size: 3em;
+	padding-left: .2em;
+	line-height: .3;
+	}
+
+.heading {
+	padding-left: .2em;
+	padding-top: 1em;
+	font-family: 'Lora', serif;
+	font-size: 2em;
+	font-weight: 600;
+	}
+
+	
+	
+	
