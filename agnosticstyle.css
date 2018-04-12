@@ -16,7 +16,19 @@
 	float: right;
 	max-width: 25%;
 	}
-	
+
+.col3 {
+	display: inline-block;
+	max-width: 21%;
+	padding-right: 0;
+	}
+
+.col4 {
+	display: inline-block;
+	float: right;
+	max-width: 70%;
+	}
+
 .contents {
 	padding-top: .2em;
 	font-family: 'Lora', serif;
@@ -26,10 +38,13 @@
 	}
 
 .volume {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 3em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5em;
 	text-align: right;
-	padding-top: 1em;
+	letter-spacing: .01em;
+	padding-top: 1.6em;
+	padding-left: .2em;
+	font-weight: 100;
 	color: grey;
 	}
 
@@ -44,9 +59,29 @@
 	padding-top: 1em;
 	font-family: 'Lora', serif;
 	font-size: 2em;
-	font-weight: 600;
 	}
 
+.i {
+	font-family: 'font-awesome';
+	}
 	
+.article {
+	font-size: 1.17em;	
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	padding-left: .5em;
+	padding-top: 1em;
+	color: grey;
+	}
 	
+.description {
+	font-size: .75em;	
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	padding-left: 1em;
+	padding-top: .5em;
+	line-height: 1.5em;
+	}
 	
+.iris {
+	}
