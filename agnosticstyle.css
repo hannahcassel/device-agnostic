@@ -27,6 +27,7 @@
 	display: inline-block;
 	float: right;
 	max-width: 70%;
+	padding-top: 1.7em;
 	}
 
 .contents {
@@ -58,7 +59,7 @@
 	padding-left: .2em;
 	padding-top: 1em;
 	font-family: 'Lora', serif;
-	font-size: 2em;
+	font-size: 1.8em;
 	}
 
 .i {
@@ -84,4 +85,5 @@
 	}
 	
 .iris {
+.max-width: 50%;
 	}
