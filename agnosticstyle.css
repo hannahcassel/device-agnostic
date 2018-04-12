@@ -25,9 +25,14 @@
 
 .col4 {
 	display: inline-block;
-	float: right;
-	max-width: 70%;
+	max-width: 50%;
 	padding-top: 1.7em;
+	}
+	
+.col5 {
+	display: inline-block;
+	float: right;
+	max-width: 20%;
 	}
 
 .contents {
@@ -84,6 +89,12 @@
 	line-height: 1.5em;
 	}
 	
-.iris {
-.max-width: 50%;
+.caption {
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: .5em;
+	text-align: right;
+	line-height: 1.5;
 	}
+	
+	
+	
