@@ -7,14 +7,14 @@
 	}
   
 .col1 {
-	max-width: 75%;
+	width: 75%;
 	display: inline;
 	}
 	
 .col2 {
 	display: inline;
 	float: right;
-	max-width: 25%;
+	width: 25%;
 	}
 
 .col3 {
@@ -27,12 +27,19 @@
 	display: inline-block;
 	max-width: 50%;
 	padding-top: 1.7em;
+	padding-left: 12em;
 	}
 	
 .col5 {
-	display: inline-block;
-	float: right;
-	max-width: 20%;
+    display: inline-block;
+    float: right;
+    width: 12%;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: .5em;
+    text-align: right;
+    line-height: 1.5;
+    padding-top: 3.3em;
+
 	}
 
 .contents {
@@ -89,12 +96,10 @@
 	line-height: 1.5em;
 	}
 	
-.caption {
-	font-family: 'Roboto Mono', sans-serif;
-	font-size: .5em;
-	text-align: right;
-	line-height: 1.5;
-	}
-	
-	
+.page {
+	font-family: 'Lora', serif;
+	font-size: 10em;
+    position: absolute;
+    bottom: 2.4em;
+    right: 1.1em;
 	
