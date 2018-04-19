@@ -57,6 +57,22 @@
 	width: 31%;
 	padding-left: 1.8em;
 	}
+	
+.col9 {
+	font-size: .6em;	
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	padding-top: 3em;
+	padding-left: .7em;
+	max-width: 50%;
+	display: inline-block;
+	}
+	
+.col10 {
+	display: inline-block;
+	max-width: 50%;
+	}
 
 .contents {
 	padding-top: .2em;
@@ -161,9 +177,10 @@
 	font-size: 10em;
     position: absolute;
     bottom: 2.4em;
-    right: 1.1em;
+    right: .45em;
     
 .features {
 	width: 100%;
 	}
 	
+
