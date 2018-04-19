@@ -39,7 +39,23 @@
     text-align: right;
     line-height: 1.5;
     padding-top: 3.3em;
+	}
 
+.col6 {
+	display: inline-block;
+	width: 33%;
+	}
+
+.col7 {
+	display: inline-block;
+	width: 28%;
+	padding-left: 2em;
+	}
+	
+.col8 {
+	display: inline-block;
+	width: 31%;
+	padding-left: 1.8em;
 	}
 
 .contents {
@@ -87,6 +103,24 @@
 	color: grey;
 	}
 	
+.article2 {
+	font-size: 1.17em;	
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	padding-left: .5em;
+	padding-top: 2em;
+	color: grey;
+	}
+	
+	.article3 {
+	font-size: 1.17em;	
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	padding-left: 2em;
+	padding-top: 2em;
+	color: grey;
+	}
+	
 .description {
 	font-size: .75em;	
 	font-family: 'Source Sans Pro', sans-serif;
@@ -96,10 +130,40 @@
 	line-height: 1.5em;
 	}
 	
+.description2{
+	font-size: .75em;	
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	padding-left: 1em;
+	padding-top: .5em;
+	padding-right: 4em;
+	line-height: 1.5em;
+	border-right-style: dotted;
+	border-right-width: .2em;
+	border-right-color: grey;
+	}
+
+.description3{
+	font-size: .75em;	
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	padding-left: 3em;
+	padding-top: .5em;
+	line-height: 1.5em;
+	border-left-style: dotted;
+	border-left-width: .2em;
+	border-left-color: grey;
+
+	}
+	
 .page {
 	font-family: 'Lora', serif;
 	font-size: 10em;
     position: absolute;
     bottom: 2.4em;
     right: 1.1em;
+    
+.features {
+	width: 100%;
+	}
 	
