@@ -6,15 +6,29 @@
   	margin: 0 auto;
 	}
   
+
 .col1 {
-	width: 75%;
+	max-width: 70%;
 	display: inline;
+	padding-top: .2em;
+	font-family: 'Lora', serif;
+	font-size: 10em;
+	letter-spacing: 2px; 
+	font-weight: bold;
 	}
 	
 .col2 {
 	display: inline;
-	float: right;
-	width: 25%;
+    float: right;
+    max-width: 20%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    text-align: right;
+    letter-spacing: .01em;
+    padding-top: 1.6em;
+    padding-left: .2em;
+    font-weight: 100;
+    color: grey;
 	}
 
 .col3 {
@@ -25,36 +39,37 @@
 
 .col4 {
 	display: inline-block;
-	max-width: 50%;
 	padding-top: 1.7em;
-	padding-left: 12em;
+	padding-left: 6em;
 	}
 	
 .col5 {
-    display: inline-block;
+	display: inline-block;
     float: right;
-    width: 12%;
+    max-width: 25%;
+    position: absolute;
+    top: 0;
+    right: -13em;
     font-family: 'Roboto Mono', sans-serif;
     font-size: .5em;
     text-align: right;
     line-height: 1.5;
-    padding-top: 3.3em;
 	}
 
 .col6 {
 	display: inline-block;
-	width: 33%;
+	max-width: 33%;
 	}
 
 .col7 {
 	display: inline-block;
-	width: 28%;
+	max-width: 28%;
 	padding-left: 2em;
 	}
 	
 .col8 {
 	display: inline-block;
-	width: 31%;
+	max-width: 31%;
 	padding-left: 1.8em;
 	}
 	
@@ -74,24 +89,7 @@
 	max-width: 50%;
 	}
 
-.contents {
-	padding-top: .2em;
-	font-family: 'Lora', serif;
-	font-size: 10em;
-	letter-spacing: 2px; 
-	font-weight: bold;
-	}
 
-.volume {
-	font-family: 'Roboto', sans-serif;
-	font-size: 2.5em;
-	text-align: right;
-	letter-spacing: .01em;
-	padding-top: 1.6em;
-	padding-left: .2em;
-	font-weight: 100;
-	color: grey;
-	}
 
 .underline {
 	font-size: 3em;
@@ -171,16 +169,66 @@
 	border-left-color: grey;
 
 	}
-	
+
+.iris {
+	position: relative;
+	}
+
 .page {
 	font-family: 'Lora', serif;
 	font-size: 10em;
     position: absolute;
-    bottom: 2.4em;
-    right: .45em;
+    bottom: 0em;
+    right: -.4em;
+    }
     
 .features {
 	width: 100%;
 	}
+	
+@media only screen and (max-width: 1000px) {
+    /* For mobile phones: */
+    
+    .col1 {
+    	min-width: 50%;
+    	font-size: 5em;
+    	}
+    .col2 {
+    	min-width: 50%;
+    	padding-top: .8em;
+    	}
+
+@media only screen and (max-width: 908px) {
+    /* For mobile phones: */
+    
+    .col6 {
+    	max-width: 25%;
+    	}
+    .col7 {
+    	max-width: 25%;
+    	}
+    .col8 {
+    	max-width: 25%;
+    	}
+    	
+@media only screen and (max-width: 860px) {
+    /* For mobile phones: */
+    .col3 {
+    	max-width: 100%;
+    	}
+
+
+@media only screen and (max-width: 750px) {
+    /* For mobile phones: */
+
+    
+    .col3 {
+    	max-width: 100%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	
+    	}
+        }
+
 	
 
