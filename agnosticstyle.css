@@ -126,7 +126,7 @@
 	color: grey;
 	}
 	
-	.article3 {
+.article3 {
 	font-size: 1.17em;	
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 600;
@@ -217,19 +217,63 @@
     	
 @media only screen and (max-width: 860px) {
     /* For mobile phones: */
+    .heading {
+    	font-size: 2.2em;
+    	}
+    .article {
+    	font-size: 1.5em;
+    	}
+    .article2 {
+    	font-size: 1.5em;
+    	}
+    .article3 {
+    	font-size: 1.5em;
+    	padding-left: .5em;
+    	}
+    .description {
+    	font-size: 1em;
+    	}
+    .description2 {
+    	font-size: 1em;
+    	padding-right: 0;
+    	border-right: none;
+    	}
+    .description3 {
+    	font-size: 1em;
+    	padding-left: 1em;
+    	border-left: none;
+    	}
     .col3 {
     	max-width: 100%;
     	}
     .col4 {
-    	width: 100%;
-    	height: auto;
+		padding-left: 1em;
     	}
     .page {
-    	display: none;
+    	right: auto;
     	}
     .col5 {
-    	display: none;
+    	right: 0em;
+    	max-width: 100%;
+    	top: 75em;
     	}
+    .underline {
+        padding-top: 1em;
+        }
+    .col2 {
+    	font-size: 2em;
+    	}
+    .col6 {
+    	max-width: 100%;
+    	}
+    .col7 {
+    	max-width: 100%;
+    	padding-left: 0;
+    	}    	
+    .col8 {
+    	max-width: 100%;
+    	padding-left: 0;
+    	}    	
     	}
 
 
