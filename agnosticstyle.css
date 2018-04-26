@@ -275,14 +275,14 @@
     	max-width: 100%;
     	padding-left: 0;
     	}    	
- 	.col9 .img {
+ 	.col9 img {
  		display: inline-block;
- 		max-width: 200px;
+		width: 100%;
  		font-size: .2em;
  		}
-	.col10 .img {
+	.col10 img {
 		display: inline-block;
-		max-width: 30%;
+		max-width: 100%;
 		}
     	}
     	
