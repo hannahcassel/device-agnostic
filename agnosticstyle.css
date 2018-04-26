@@ -80,7 +80,6 @@
 	line-height: 1.5;
 	padding-top: 3em;
 	padding-left: .7em;
-	max-width: 50%;
 	display: inline-block;
 	}
 	
@@ -218,7 +217,7 @@
 @media only screen and (max-device-width: 860px) {
     /* For mobile phones: */
     .heading {
-    	font-size: 2.2em;
+    	font-size: 3em;
     	}
     .article {
     	font-size: 1.5em;
@@ -246,8 +245,9 @@
     .col3 {
     	max-width: 100%;
     	}
-    .col4 {
-		padding-left: 1em;
+    .col4 .img {
+		width: 100%;
+		padding: 0 3em;
     	}
     .page {
     	right: auto;
@@ -255,10 +255,11 @@
     .col5 {
     	right: 0em;
     	max-width: 100%;
-    	top: 75em;
+    	top: initial;
+    	font-size: initial;
     	}
     .underline {
-        padding-top: 1em;
+        padding-top: 2em;
         }
     .col2 {
     	font-size: 2em;
@@ -274,8 +275,27 @@
     	max-width: 100%;
     	padding-left: 0;
     	}    	
+ 	.col9 .img {
+ 		display: inline-block;
+ 		max-width: 200px;
+ 		font-size: .2em;
+ 		}
+	.col10 .img {
+		display: inline-block;
+		max-width: 30%;
+		}
     	}
+    	
 
 
-	
+@media only screen and (max-device-width: 750px) {
+    /* For mobile phones: */
 
+    
+    .col3 {
+    	max-width: 100%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	
+    	}
+        }
